@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-size: cover;
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+.button {
+  background-color: #a7b6a8;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1คpx;
+  margin-bottom: 20px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.button:hover {
+  background-color: #686e69;
+}
+
+.counters-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.counter {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 12px; /* Increased border radius */
+  margin: 20px;
+  padding: 30px; /* Increased padding */
+  text-align: center;
+}
+
+.counter button {
+  font-size: 24px; /* Increased font size */
+  margin: 0 10px; /* Increased margin */
+  padding: 15px 20px; /* Increased padding */
+  cursor: pointer;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
+
+.counter button:hover {
+  background-color: #bac3bb;
+}
+
+.suminfo {
+  background-color: #d3ddd3;
+  color: white;
+  border-radius: 12px;
+  padding: 20px; /* Increased padding */
+  margin-top: 30px;
+}
+
+.suminfo h1 {
+  margin: 0;
+  font-size: 30px;
+}
+.text-center {
+  text-align:  center;
+  /* display: block; */
+  margin: 20px;
+  padding: 20px;
+  background: white;
+  border: none;
+  border-radius: 20px;
+}
+.text-center button{
+  background-color: rgb(119, 124, 126);
+  color: white;
+  padding: 5px 10px;
+  margin: 10px;
+  border: 1px solid rgb(101, 104, 105);
+  border-radius: 10px;
+}
+.text-center button:hover{
+  background: white;
+  color: rgb(106, 113, 116);
+}
+
+.font{
+  font-family: 'Bebas Neue', sans-serif;
+}
